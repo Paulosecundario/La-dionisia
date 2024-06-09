@@ -1,5 +1,6 @@
 #parrillero {
     width: 800px;
+    border-radius: 50px;
 }
 figure{
     text-align: center;
