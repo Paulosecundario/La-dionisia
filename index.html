@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La dionisia</title>
+    <link href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>La dionisia</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#features">Características</a></li>
+            <li><a href="#contact" role="button">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Bienvenidos a la La dionisia</h2>
+                    <h3>Un lugar perfecto para relajarse y disfrutar de la naturaleza</h3>
+                </hgroup>
+                <p>La La dionisia ofrece un refugio tranquilo lejos del bullicio de la ciudad, con todas las comodidades modernas y un entorno natural impresionante.</p>
+                <figure>
+                    <img id="parrillero" src="la dionisia parrillero.jpg" alt="La dionisia" />
+                
+                </figure>
+                <h3 id="features">Características</h3>
+                <p>La casa cuenta con las siguientes características:</p>
+                <ul>
+                    <li>1 habitacion</li>
+                    <li>1 baño completos</li>
+                    <li>Cocina totalmente equipada</li>
+                    <li>Jardín amplio con zona de barbacoa</li>
+                    <li>Parrillero</li>
+                    <li>Wi-Fi gratuito</li>
+                </ul>
+                <h3>Ubicación</h3>
+                <p>La casa está ubicada en el balneario de Santa Monica, a unos minutos de Punta del Este justo antes de llegar a Jose Ignacio.</p>
+            </section>
+        </div>
+    </main>
+
+    <section aria-label="Subscribe example">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>Contacto</h2>
+                    <h3>¿Interesado en saber más? Contáctanos</h3>
+                </hgroup>
+                <form class="grid">
+                    <input type="text" id="firstname" name="firstname" placeholder="Nombre" aria-label="Nombre" required />
+                    <input type="email" id="email" name="email" placeholder="Correo electrónico" aria-label="Correo electrónico" required />
+                    <button type="submit" onclick="event.preventDefault()">Enviar</button>
+                </form>
+            </article>
+        </div>
+    </section>
+
+    <footer class="container">
+        <small><a href="#">Política de Privacidad</a> • <a href="#">Términos y Condiciones</a></small>
+    </footer>
+</body>
+</html>
